@@ -4,6 +4,10 @@
   ],
   "version": "0.0.0",
   "command": {
+    "publish": {
+      "allowBranch": "master",
+      "message": "chore(release): publish %s [ci skip]"
+    },
     "bootstrap": {
       "hoist": ["@storybook/react-native", "countries-and-timezones"]
     }
