@@ -2,14 +2,17 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.0.0",
+  "version": "0.1.0",
   "command": {
     "publish": {
       "allowBranch": "master",
       "message": "chore(release): publish %s [ci skip]"
     },
     "bootstrap": {
-      "hoist": ["@storybook/react-native", "countries-and-timezones"]
+      "hoist": [
+        "@storybook/react-native",
+        "countries-and-timezones"
+      ]
     }
   }
 }

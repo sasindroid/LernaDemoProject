@@ -1,8 +1,8 @@
 {
   "name": "Package2",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "devDependencies": {
-    "jest": "^26.5.3",
-    "countries-and-timezones": "^2.3.1"
+    "countries-and-timezones": "^2.3.1",
+    "jest": "^26.5.3"
   }
 }
